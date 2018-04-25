@@ -4,6 +4,6 @@ spl_autoload_register(function ($classname) {
         . str_replace('\\', DIRECTORY_SEPARATOR, $classname)
         . '.php'
     ;
-    
+
     require_once $file;
 });

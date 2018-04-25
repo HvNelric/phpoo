@@ -34,4 +34,8 @@ abstract class Animal
      * c-à-d la redéfinir avec du contenu
      */
     abstract public function crier();
+
+    public function sIdentifier(){
+        return 'Je suis un animal';
+    }
 }
