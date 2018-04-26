@@ -64,19 +64,19 @@ abstract class Vehicule
         return $this->vitesseMax;
     }
 
-    public function setTypeCarburant(string $typeCarburant = null)
-    {
-        if (!is_null($typeCarburant)
-            && !in_array($typeCarburant, self::$carburantsPossibles)) {
-            throw new \UnexpectedValueException(
-                'Le type de carburant doit être un des suivants : '
-                . implode(', ', self::$carburantsPossibles)
-            );
-        }
+    // public function setTypeCarburant(string $typeCarburant = null)
+    // {
+    //     if (!is_null($typeCarburant)
+    //         && !in_array($typeCarburant, self::$carburantsPossibles)) {
+    //         throw new \UnexpectedValueException(
+    //             'Le type de carburant doit être un des suivants : '
+    //             . implode(', ', self::$carburantsPossibles)
+    //         );
+    //     }
 
-        $this->typeCarburant = $typeCarburant;
-        return $this;
-    }
+    //     $this->typeCarburant = $typeCarburant;
+    //     return $this;
+    // }
 
     public function setVitesseMax(int $vitesseMax = null){
         $this->vitesseMax = $vitesseMax;

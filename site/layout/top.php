@@ -43,7 +43,7 @@
   	?>
   	<nav class="navbar navbar-expand-md navbar-dark bg-secondary">
   		<div class="container navbar-nav">
-  			<a class="navbar-brand" href="<?= RACINE_WEB; ?>index.php">Boutique</a
+  			<a class="navbar-brand" href="<?= RACINE_WEB; ?>index.php">Boutique</a>
   			<ul class="navbar-nav">
   				<?php
   				if (isUserConnected()) :

@@ -6,6 +6,8 @@ spl_autoload_register(function ($classname) {
     ;
 
     require_once $file;
-    // Model\Categorie
-    // require_once 'site/include/../Model/Categorie.php equivaut à : require_once 'site/Model/Categorie.php';
 });
+// Model\Categorie
+// require_once 'site/include/../Model/Categorie.php';
+// équivaut à :
+// require_once 'site/Model/Categorie.php';
